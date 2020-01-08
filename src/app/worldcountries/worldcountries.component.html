@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="columns is-mobile is-multiline">
+        <div class="column is-half"  *ngFor="let flag of flags">
+            <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="{{flag.flag}}" alt="Placeholder image" >
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">{{flag.name}}</p>
+                      <p class="subtitle is-6">{{flag.capital}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
